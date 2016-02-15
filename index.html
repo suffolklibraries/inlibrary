@@ -30,430 +30,412 @@
 
 	<body>
 
-		<header class="site-header" role="banner">
+		<div class="top-note">
 
-			<div class="g-w-row">
+			<p><small>By using our service, including our PCs and wifi, you agree to abide by <a href="http://suffolklibraries.co.uk/help/library-byelaws">our byelaws</a>.</small></p>
 
-				<div class="g-w-col1 g-w-left">
+		</div>
 
-					<h1 class="site-title">Suffolk Libraries</h1>
+		<div class="wrapper">
 
-				</div>
+			<header class="site-header" role="banner">
 
-				<div class="g-w-col2 g-w-right g-w-last">
+				<div class="g-w-row">
 
-					<div class="contact-details secondary icon">
+					<div class="g-w-col1 g-w-left">
 
-						<ul>
-
-							<li>Tel: <strong><a href="tel:01473 543568">01473 263838</a></strong></li>
-							<li>Email: <strong>help@suffolklibraries.co.uk</strong></li>
-
-						</ul>
+						<h1 class="site-title">Suffolk Libraries</h1>
 
 					</div>
 
-				</div>
+					<div class="g-w-col2 g-w-right g-w-last">
 
-			</div> <!-- end g-w-row -->
+						<div class="contact-details secondary icon">
 
-		</header>
+							<ul>
 
-		<main role="content" id="content">
+								<li>Tel: <strong><a href="tel:01473 543568">01473 263838</a></strong></li>
+								<li>Email: <strong>help@suffolklibraries.co.uk</strong></li>
 
-			<div class="g-w-row">
-
-				<section class="box">
-
-					<div id="search_box" class="search_box" >
-
-						<form id="search_from" class="pure-form" action="http://www.google.com/search" method="get">
-
-
-							<input type="search" class="pure-input-1-2" id="q" name="q" placeholder="Search the web with Google">
-							<input type="submit" value="Search" class="pure-button pure-button-primary" alt="search" id="submitbtn">
-							<span><small>&thinsp;Powered by &thinsp;<img src="images/google.png" alt="Google"></small></span>
-
-						</form>
-
-					</div> <!-- end #search_box -->
-
-				</section> <!-- end .box -->
-
-			</div> <!-- end .g-row -->
-
-			<div class="g-w-row">
-
-				<div class="g-w-left g-w-col1">
-
-					<section class="box">
-
-						<div class="search-form">
-
-							<form role="search" class="pure-form pure-form-stacked" method="get" action="http://suffolk.spydus.co.uk/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ" onsubmit="return SubmitOK()">
-
-								<h1 class="search icon">Search and reserve</h1>
-
-								<fieldset class="search-queries">
-
-									<label for="ENTRY_NAME">Title:</label>
-
-									<div class="hidden" hidden >
-
-										<select name="ENTRY_NAME" id="ENTRY_NAME" class="selectLabel">
-
-											<option value="TI" selected="selected">Title</option>
-											<option value="AU">Author/artist</option>
-											<option value="SU">Subject</option>
-											<option value="SE">Series Title</option>
-											<option value="PU">Publisher</option>
-											<option value="NTS">General Notes</option>
-											<option value="AB">Abstract</option>
-											<option value="BS">All fields (author/artist name, title, summary etc.)</option>
-
-										</select>
-
-									</div>
-
-									<label class="hidden" hidden  for="ENTRY">Search for:</label>
-
-									<input class="pure-input-1" name="ENTRY" id="ENTRY" type="search">
-
-									<div class="hidden" hidden >
-
-										<label>Type of search:</label>
-
-										<input name="ENTRY_TYPE" id="ENTRY_TYPE_A" class="inputRadio" value="A" type="radio">
-
-										<label for="ENTRY_TYPE_A" class="labelRadio">Phrase</label>
-
-										<input name="ENTRY_TYPE" id="ENTRY_TYPE_K" class="inputRadio" value="K" checked="checked" type="radio"><label for="ENTRY_TYPE_K" class="labelRadio">Keywords</label>
-
-										<input name="ENTRY_TYPE" id="ENTRY_TYPE_E" class="inputRadio" value="E" type="radio">
-
-										<label for="ENTRY_TYPE_E" class="labelRadio">Exact Match</label>
-
-										<label for="ENTRY1_OPER" class="hidden" hidden >Search Operator 1:</label>
-
-										<select name="ENTRY1_OPER" id="ENTRY1_OPER">
-
-											<option value="+" selected="selected">AND</option>
-											<option value="-">NOT</option>
-											<option value="/">OR</option>
-
-										</select>
-
-									</div>
-
-									<label for="ENTRY2_NAME">Author/artist:</label>
-
-									<div class="hidden" hidden >
-
-										<select name="ENTRY2_NAME" id="ENTRY2_NAME">
-
-											<option value="TI">Title</option>
-											<option value="AU" selected="selected">Author/artist</option>
-											<option value="SU">Subject</option>
-											<option value="SE">Series Title</option>
-											<option value="PU">Publisher</option><option value="NTS">General Notes</option>
-											<option value="AB">Abstract</option>
-											<option value="BS">All fields (author/artist name, title, summary etc.)</option>
-
-										</select>
-
-									</div>
-
-									<label class="hidden" hidden  for="ENTRY2">Search for:</label>
-
-									<input class="pure-input-1" name="ENTRY2" id="ENTRY2" type="search">
-
-									<div class="hidden" hidden >
-
-										<label>Type of search:</label>
-
-										<input name="ENTRY2_TYPE" id="ENTRY2_TYPE_A" class="inputRadio" value="A" type="radio">
-
-										<label for="ENTRY2_TYPE_A" class="labelRadio">Phrase</label>
-
-										<input name="ENTRY2_TYPE" id="ENTRY2_TYPE_K" class="inputRadio" value="K" checked="checked" type="radio">
-
-										<label for="ENTRY2_TYPE_K" class="labelRadio">Keywords</label>
-
-										<input name="ENTRY2_TYPE" id="ENTRY2_TYPE_E" class="inputRadio" value="E" type="radio">
-
-										<label for="ENTRY2_TYPE_E" class="labelRadio">Exact Match</label>
-
-									</div>
-
-									<br>
-
-									<input class="pure-button pure-button-primary" value="  Search  " type="submit">
-
-									<input class="pure-button pure-button-primary" value=" Clear " type="reset">
-
-									<br>
-
-								</fieldset>
-
-								<fieldset class="hidden search-results-options">
-
-									<legend>Search results options</legend>
-
-									<label for="NRECS" class="w30">Results per page:</label>
-
-									<select name="NRECS" id="NRECS" class="selectSingle w10">
-
-										<option value="5">5</option><option value="10">10</option>
-										<option value="20" selected="selected">20</option>
-										<option value="30">30</option>
-										<option value="50">50</option>
-										<option value="100">100</option>
-
-									</select>
-
-									<label for="SORTS" class="w30">Sort by:</label>
-
-									<select name="SORTS" id="SORTS" class="selectSingle w65">
-
-										<option value="HBT.SOVR" selected="selected">Title</option>
-										<option value="DTE.DATE1.DESC]HBT.SOVR">Publication Date, latest to earliest</option>
-										<option value="DTE.DATE1]HBT.SOVR">Publication Date, earliest to latest</option>
-										<option value="SQL_AUTHOR_TITLE">Author by Title</option>
-
-									</select>
-
-									<input name="SEARCH_FORM" value="/cgi-bin/spydus.exe/MSGTRN/OPAC/BSEARCH" type="hidden">
-									<input name="CF" value="GEN" type="hidden"><input name="GQ" id="GQ" type="hidden">
-
-								</fieldset>
-
-							</form>
+							</ul>
 
 						</div>
 
-						<ul>
+					</div>
 
-							<li><a href="https://suffolk.spydus.co.uk/cgi-bin/spydus.exe/MSGTRN/OPAC/BSEARCH">Search for books, CDs and films</a></li>
-							<li><a href="https://suffolk.spydus.co.uk/cgi-bin/spydus.exe/MSGTRN/OPAC/LOGINB">Your library account</a></li>
-							<li><a href="http://www.suffolklibraries.co.uk/elibrary/">Search for free ebooks, MP3s and eaudio</a></li>
+				</div> <!-- end g-w-row -->
 
-						</ul>
+			</header>
 
-					</section>
+		</div> <!-- end .wrapper -->
 
-					<section class="box">
+		<main role="content" id="content">
 
-						<h1 class="pc icon">Computers</h1>
+			<div class="wrapper">
 
-						<ul>
-
-							<li><a href="http://netloan.suffolklibraries.co.uk">Book a computer</a></li>
-
-						</ul>
-
-					</section>
+				<div class="g-w-row">
 
 					<section class="box">
 
-						<h1 class="community icon">Community resources</h1>
+						<div id="search_box" class="search_box" >
 
-						<ul>
+							<form id="search_from" class="pure-form" action="http://www.google.com/search" method="get">
 
-							<li><a href="http://infolink.suffolk.gov.uk/kb5/suffolk/infolink/home.page">Suffolk Infolink</a>: Directory of community information</li>
-							<li><a href="http://www.open4community.info/suffolklibraries/">Open 4 Community</a>: Search hundreds of government, local, national and European funding sources</li>
-							<li><a href="http://www.suffolkobservatory.info/">Suffolk Observatory</a>: Data, statistics and reports about Suffolk</li>
-							<li><a href="http://www.findyourcreditunion.co.uk/creditunions/view/520">Ipswich and Suffolk credit union</a>: Ethical and affordable loans for everyone</li>
-							<li><a href="http://suffolklibraries.co.uk/health-info/">Health and wellbeing services</a>: Local services and websites</li>
-							<li><a href="http://suffolklibraries.co.uk/information-resources/african-caribbean-resources/">African Caribbean resources</a> housed at Ipswich County Library</li>
-							<li><a href="http://suffolklibraries.co.uk/information-resources/indic-language-resources/">Indic language resources</a> housed at Ipswich County Library</li>
 
-	</li>
+								<input type="search" class="pure-input-1-2" id="q" name="q" placeholder="Search the web with Google">
+								<input type="submit" value="Search" class="pure-button pure-button-primary" alt="search" id="submitbtn">
+								<span><small>&thinsp;Powered by &thinsp;<img src="images/google.png" alt="Google"></small></span>
 
-						</ul>
+							</form>
 
-					</section>
+						</div> <!-- end #search_box -->
 
-				</div>
+					</section> <!-- end .box -->
 
-				<div class="g-w-left g-w-col2 g-w-last">
+				</div> <!-- end .g-row -->
 
-					<section class="box">
+				<div class="g-w-row">
 
-						<h1 class="information icon">Information and research resources</h1>
+					<div class="g-w-left g-w-col1">
 
-						<p>All free to use. Some may require a library card and PIN (you can use these as a username and password).</p>
+						<section class="box">
 
-					</section>
+							<div class="search-form">
 
-					<section class="box-sub">
+								<form role="search" class="pure-form pure-form-stacked" method="get" action="http://suffolk.spydus.co.uk/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ" onsubmit="return SubmitOK()">
 
-						<h1>General reference, dictionaries and encyclop&aelig;dias</h1>
+									<h1 class="search icon">Search and reserve</h1>
 
-						<ul>
+									<fieldset class="search-queries">
 
-							<li><a href="http://accesstoresearch.org.uk">Access to Research</a>: free access to more than 1,000,000 academic articles and 8,400 journals</li>
-							<li>Britannica Library edition:
-								<ul>
-									<li><a href="http://library.eb.co.uk/storelibrarycard?id=suffolklibrary&amp;target=/levels/adult">Adult edition</a></li>
-									<li><a href="http://library.eb.co.uk/storelibrarycard?id=suffolklibrary&amp;target=/levels/student">Student edition</a></li>
-									<li><a href="http://library.eb.co.uk/storelibrarycard?id=suffolklibrary&amp;target=/levels/junior">Children’s edition</a></li>
-								</ul>
-							</li>
-							<li><a href="http://www.credoreference.com/home.do">Credo reference</a>: 600 books and encyclop&aelig;dias</li>
-							<li><a href="http://find.galegroup.com/menu/commonmenu.do?userGroupName=suf_earl">Gale reference</a></li>
-							<li><a href="http://www.oxfordreference.com/">Oxford reference</a></li>
-							<li><a href="http://oed.com/">Oxford English dictionary</a></li>
-							<li><a href="http://english.oxforddictionaries.com/">Oxford dictionaries pro</a></li>
+										<label for="ENTRY_NAME">Title:</label>
 
-						</ul>
+										<div class="hidden" hidden >
 
-					</section>
+											<select name="ENTRY_NAME" id="ENTRY_NAME" class="selectLabel">
 
-					<section class="box-sub">
+												<option value="TI" selected="selected">Title</option>
+												<option value="AU">Author/artist</option>
+												<option value="SU">Subject</option>
+												<option value="SE">Series Title</option>
+												<option value="PU">Publisher</option>
+												<option value="NTS">General Notes</option>
+												<option value="AB">Abstract</option>
+												<option value="BS">All fields (author/artist name, title, summary etc.)</option>
 
-						<h1>Biography</h1>
+											</select>
 
-						<ul>
+										</div>
 
-							<li><a href="http://www.oxforddnb.com/">Oxford dictionary of national biography</a></li>
-							<li><a href="http://www.ukwhoswho.com/">Who's who and who was who</a></li>
+										<label class="hidden" hidden  for="ENTRY">Search for:</label>
 
-						</ul>
+										<input class="pure-input-1" name="ENTRY" id="ENTRY" type="search">
 
-					</section>
+										<div class="hidden" hidden >
 
-					<section class="box-sub">
+											<label>Type of search:</label>
 
-						<h1>History</h1>
+											<input name="ENTRY_TYPE" id="ENTRY_TYPE_A" class="inputRadio" value="A" type="radio">
 
-						<ul>
+											<label for="ENTRY_TYPE_A" class="labelRadio">Phrase</label>
 
-							<li><a href="http://infotrac.galegroup.com/itweb/suf_earl?db=BNCN">19th century British Library newspapers</a></li>
-							<li><a href="http://www.ancestrylibrary.com">Ancestry library edition</a></li>
-							<li><a href="http://www.findmypast.co.uk/">Find my past</a></li>
-							<li><a href="http://johnjohnson.chadwyck.co.uk/home.do">John Johnson collection</a>: 18th and 19th century ephemera from the Bodleian Library</li>
+											<input name="ENTRY_TYPE" id="ENTRY_TYPE_K" class="inputRadio" value="K" checked="checked" type="radio"><label for="ENTRY_TYPE_K" class="labelRadio">Keywords</label>
 
-						</ul>
+											<input name="ENTRY_TYPE" id="ENTRY_TYPE_E" class="inputRadio" value="E" type="radio">
 
-					</section>
+											<label for="ENTRY_TYPE_E" class="labelRadio">Exact Match</label>
 
-					<section class="box-sub">
+											<label for="ENTRY1_OPER" class="hidden" hidden >Search Operator 1:</label>
 
-						<h1>Newspapers and periodicals</h1>
+											<select name="ENTRY1_OPER" id="ENTRY1_OPER">
 
-						<ul>
+												<option value="+" selected="selected">AND</option>
+												<option value="-">NOT</option>
+												<option value="/">OR</option>
 
-							<li><a href="http://infotrac.galegroup.com/itweb/suf_earl?db=SP00">Info Trac</a>: National and local newspaper archive</li>
-							<li><a href="http://infotrac.galegroup.com/itweb/suf_earl?db=SP01">Periodical database</a>: 60 popular and academic publications</li>
-							<li><a href="http://find.galegroup.com/dvnw/start.do?prodId=DVNW&userGroupName=suf_earl">Gale news vault</a>: 19th century newspapers</li>
-							<li><a href="http://infotrac.galegroup.com/itweb/suf_earl?db=TTDA">Gale <cite>Times</cite> digital archive</a></li>
+											</select>
 
-						</ul>
+										</div>
 
-					</section>
+										<label for="ENTRY2_NAME">Author/artist:</label>
 
-				</div>
+										<div class="hidden" hidden >
 
-			</div> <!-- end g-w-row -->
+											<select name="ENTRY2_NAME" id="ENTRY2_NAME">
 
-			<div class="g-w-row">
+												<option value="TI">Title</option>
+												<option value="AU" selected="selected">Author/artist</option>
+												<option value="SU">Subject</option>
+												<option value="SE">Series Title</option>
+												<option value="PU">Publisher</option><option value="NTS">General Notes</option>
+												<option value="AB">Abstract</option>
+												<option value="BS">All fields (author/artist name, title, summary etc.)</option>
 
-			</div>
+											</select>
 
-			<div class="g-w-row">
+										</div>
 
-				<div class="g-w-left g-w-col1">
+										<label class="hidden" hidden  for="ENTRY2">Search for:</label>
 
-				</div>
+										<input class="pure-input-1" name="ENTRY2" id="ENTRY2" type="search">
 
-				<div class="g-w-left g-w-col1">
+										<div class="hidden" hidden >
 
-				</div>
+											<label>Type of search:</label>
 
-				<div class="g-w-left g-w-col1 g-w-last">
+											<input name="ENTRY2_TYPE" id="ENTRY2_TYPE_A" class="inputRadio" value="A" type="radio">
 
-				</div>
+											<label for="ENTRY2_TYPE_A" class="labelRadio">Phrase</label>
 
-			</div> <!-- end g-w-row -->
+											<input name="ENTRY2_TYPE" id="ENTRY2_TYPE_K" class="inputRadio" value="K" checked="checked" type="radio">
 
-			<div class="g-w-row">
+											<label for="ENTRY2_TYPE_K" class="labelRadio">Keywords</label>
 
-				<div class="g-w-left g-w-col1">
+											<input name="ENTRY2_TYPE" id="ENTRY2_TYPE_E" class="inputRadio" value="E" type="radio">
 
-				</div>
+											<label for="ENTRY2_TYPE_E" class="labelRadio">Exact Match</label>
 
-			</div> <!-- end .g-w-row -->
+										</div>
 
-			<div class="g-w-row">
+										<br>
 
+										<input class="pure-button pure-button-primary" value="  Search  " type="submit">
 
+										<input class="pure-button pure-button-primary" value=" Clear " type="reset">
 
-			</div> <!-- end .g-w-row -->
+										<br>
 
-			<div class="g-w-row">
+									</fieldset>
 
-				<div class="g-w-left g-w-col1">
+									<fieldset class="hidden search-results-options">
 
-					<section class="box">
+										<legend>Search results options</legend>
 
-						<h1 class="calendar icon">News and events</h1>
+										<label for="NRECS" class="w30">Results per page:</label>
 
-						<ul>
+										<select name="NRECS" id="NRECS" class="selectSingle w10">
 
-							<li><a href="http://www.suffolklibraries.co.uk/news">Latest news</a></li>
-							<li><a href="http://suffolklibraries.co.uk/events">Events</a></li>
+											<option value="5">5</option><option value="10">10</option>
+											<option value="20" selected="selected">20</option>
+											<option value="30">30</option>
+											<option value="50">50</option>
+											<option value="100">100</option>
 
-						</ul>
+										</select>
 
-					</section>
+										<label for="SORTS" class="w30">Sort by:</label>
 
-				</div>
+										<select name="SORTS" id="SORTS" class="selectSingle w65">
 
-				<div class="g-w-left g-w-col1">
+											<option value="HBT.SOVR" selected="selected">Title</option>
+											<option value="DTE.DATE1.DESC]HBT.SOVR">Publication Date, latest to earliest</option>
+											<option value="DTE.DATE1]HBT.SOVR">Publication Date, earliest to latest</option>
+											<option value="SQL_AUTHOR_TITLE">Author by Title</option>
 
-					<section class="box">
+										</select>
 
-						<h1 class="map icon">Find a library</h1>
+										<input name="SEARCH_FORM" value="/cgi-bin/spydus.exe/MSGTRN/OPAC/BSEARCH" type="hidden">
+										<input name="CF" value="GEN" type="hidden"><input name="GQ" id="GQ" type="hidden">
 
-						<ul>
+									</fieldset>
 
-							<li><a href="http://suffolklibraries.co.uk/branches/bury-st-edmunds-library/">Bury St Edmunds</a></li>
-							<li><a href="http://suffolklibraries.co.uk/branches/ipswich-county-library/">Ipswich County Library</a></li>
-							<li><a href="http://suffolklibraries.co.uk/branches/lowestoft-library/">Lowestoft</a></li>
+								</form>
 
-						</ul>
+							</div>
 
-						<p><a href="http://suffolklibraries.co.uk/branches/">List of all Suffolk libraries</a></p>
+							<ul>
 
-					</section>
+								<li><a href="https://suffolk.spydus.co.uk/cgi-bin/spydus.exe/MSGTRN/OPAC/BSEARCH">Search for books, CDs and films</a></li>
+								<li><a href="https://suffolk.spydus.co.uk/cgi-bin/spydus.exe/MSGTRN/OPAC/LOGINB">Your library account</a></li>
+								<li><a href="http://www.suffolklibraries.co.uk/elibrary/">Search for free ebooks, MP3s and eaudio</a></li>
 
-				</div>
+							</ul>
 
-				<div class="g-w-left g-w-col1 g-w-last">
+						</section>
 
-					<section class="box">
+						<section class="box">
 
-						<h1 class="social icon">Keep updated</h1>
+							<h1 class="pc icon">Computers</h1>
 
-						<ul class="icon">
+							<ul>
 
-							<li class="twitter"><a href="http://twitter.com/suffolklibrary">Twitter</a></li>
-							<li class="facebook"><a href="http://facebook.com/suffolklibraries">Facebook</a></li>
-							<li class="email"><a href="http://suffolklibraries.us4.list-manage.com/subscribe?u=8fdb8e824d6cb5f95be2c5b88&id=3ec8bb8121">Sign up to our newsletter</a></li>
+								<li><a href="http://netloan.suffolklibraries.co.uk">Book a computer</a></li>
 
-						</ul>
+							</ul>
 
-					</section>
+						</section>
 
-				</div>
+						<section class="box">
 
-			</div> <!-- end g-w-row -->
+							<h1 class="community icon">Community resources</h1>
+
+							<ul>
+
+								<li><a href="http://infolink.suffolk.gov.uk/kb5/suffolk/infolink/home.page">Suffolk Infolink</a>: Directory of community information</li>
+								<li><a href="http://www.open4community.info/suffolklibraries/">Open 4 Community</a>: Search hundreds of government, local, national and European funding sources</li>
+								<li><a href="http://www.suffolkobservatory.info/">Suffolk Observatory</a>: Data, statistics and reports about Suffolk</li>
+								<li><a href="http://www.findyourcreditunion.co.uk/creditunions/view/520">Ipswich and Suffolk credit union</a>: Ethical and affordable loans for everyone</li>
+								<li><a href="http://suffolklibraries.co.uk/health-info/">Health and wellbeing services</a>: Local services and websites</li>
+								<li><a href="http://suffolklibraries.co.uk/information-resources/african-caribbean-resources/">African Caribbean resources</a> housed at Ipswich County Library</li>
+								<li><a href="http://suffolklibraries.co.uk/information-resources/indic-language-resources/">Indic language resources</a> housed at Ipswich County Library</li>
+
+							</ul>
+
+						</section>
+
+					</div>
+
+					<div class="g-w-left g-w-col2 g-w-last">
+
+						<section class="box">
+
+							<h1 class="information icon">Information and research resources</h1>
+
+							<p>All free to use. Some may require a library card and PIN (you can use these as a username and password).</p>
+
+						</section>
+
+						<section class="box-sub">
+
+							<h1>History</h1>
+
+							<ul>
+
+								<li><a href="http://infotrac.galegroup.com/itweb/suf_earl?db=BNCN">19th century British Library newspapers</a></li>
+								<li><a href="http://www.ancestrylibrary.com">Ancestry library edition</a></li>
+								<li><a href="http://www.findmypast.co.uk/">Find my past</a></li>
+								<li><a href="http://johnjohnson.chadwyck.co.uk/home.do">John Johnson collection</a>: 18th and 19th century ephemera from the Bodleian Library</li>
+
+							</ul>
+
+						</section>
+
+						<section class="box-sub">
+
+							<h1>General reference, dictionaries and encyclop&aelig;dias</h1>
+
+							<ul>
+
+								<li><a href="http://accesstoresearch.org.uk">Access to Research</a>: free access to more than 1,000,000 academic articles and 8,400 journals</li>
+								<li>Britannica Library edition:
+									<ul>
+										<li><a href="http://library.eb.co.uk/storelibrarycard?id=suffolklibrary&amp;target=/levels/adult">Adult edition</a></li>
+										<li><a href="http://library.eb.co.uk/storelibrarycard?id=suffolklibrary&amp;target=/levels/student">Student edition</a></li>
+										<li><a href="http://library.eb.co.uk/storelibrarycard?id=suffolklibrary&amp;target=/levels/junior">Children’s edition</a></li>
+									</ul>
+								</li>
+								<li><a href="http://www.credoreference.com/home.do">Credo reference</a>: 600 books and encyclop&aelig;dias</li>
+								<li><a href="http://find.galegroup.com/menu/commonmenu.do?userGroupName=suf_earl">Gale reference</a></li>
+								<li><a href="http://www.oxfordreference.com/">Oxford reference</a></li>
+								<li><a href="http://oed.com/">Oxford English dictionary</a></li>
+								<li><a href="http://english.oxforddictionaries.com/">Oxford dictionaries pro</a></li>
+
+							</ul>
+
+						</section>
+
+						<section class="box-sub">
+
+							<h1>Biography</h1>
+
+							<ul>
+
+								<li><a href="http://www.oxforddnb.com/">Oxford dictionary of national biography</a></li>
+								<li><a href="http://www.ukwhoswho.com/">Who's who and who was who</a></li>
+
+							</ul>
+
+						</section>
+
+						<section class="box-sub">
+
+							<h1>Newspapers and periodicals</h1>
+
+							<ul>
+
+								<li><a href="http://infotrac.galegroup.com/itweb/suf_earl?db=SP00">Info Trac</a>: National and local newspaper archive</li>
+								<li><a href="http://infotrac.galegroup.com/itweb/suf_earl?db=SP01">Periodical database</a>: 60 popular and academic publications</li>
+								<li><a href="http://find.galegroup.com/dvnw/start.do?prodId=DVNW&userGroupName=suf_earl">Gale news vault</a>: 19th century newspapers</li>
+								<li><a href="http://infotrac.galegroup.com/itweb/suf_earl?db=TTDA">Gale <cite>Times</cite> digital archive</a></li>
+
+							</ul>
+
+						</section>
+
+					</div>
+
+				</div> <!-- end g-w-row -->
+
+				<div class="g-w-row">
+
+					<div class="g-w-left g-w-col1">
+
+						<section class="box">
+
+							<h1 class="calendar icon">News and events</h1>
+
+							<ul>
+
+								<li><a href="http://www.suffolklibraries.co.uk/news">Latest news</a></li>
+								<li><a href="http://suffolklibraries.co.uk/events">Events</a></li>
+
+							</ul>
+
+						</section>
+
+					</div>
+
+					<div class="g-w-left g-w-col1">
+
+						<section class="box">
+
+							<h1 class="map icon">Find a library</h1>
+
+							<ul>
+
+								<li><a href="http://suffolklibraries.co.uk/branches/bury-st-edmunds-library/">Bury St Edmunds</a></li>
+								<li><a href="http://suffolklibraries.co.uk/branches/ipswich-county-library/">Ipswich County Library</a></li>
+								<li><a href="http://suffolklibraries.co.uk/branches/lowestoft-library/">Lowestoft</a></li>
+
+							</ul>
+
+							<p><a href="http://suffolklibraries.co.uk/branches/">List of all Suffolk libraries</a></p>
+
+						</section>
+
+					</div>
+
+					<div class="g-w-left g-w-col1 g-w-last">
+
+						<section class="box">
+
+							<h1 class="social icon">Keep updated</h1>
+
+							<ul class="icon">
+
+								<li class="twitter"><a href="http://twitter.com/suffolklibrary">Twitter</a></li>
+								<li class="facebook"><a href="http://facebook.com/suffolklibraries">Facebook</a></li>
+								<li class="email"><a href="http://suffolklibraries.us4.list-manage.com/subscribe?u=8fdb8e824d6cb5f95be2c5b88&id=3ec8bb8121">Sign up to our newsletter</a></li>
+
+							</ul>
+
+						</section>
+
+					</div>
+
+				</div> <!-- end g-w-row -->
+
+			</div> <!-- end .wrapper -->
 
 		</main>
 
 		<footer class="site-footer">
 
-			<p><small>Suffolk Libraries: 01473 263838 / help@suffolklibraries.co.uk</small></p>
+			<div class="wrapper">
+
+				<p><small>Suffolk Libraries: 01473 263838 / help@suffolklibraries.co.uk</small></p>
+
+			</div>
 
 		</footer>
 

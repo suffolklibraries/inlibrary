@@ -53,11 +53,11 @@ CONTENTS
 	main {
 		display: block;
 	}
-	
+
 	html {
 		border-top: 0.35em solid #642D91;
 	}
-	
+
 	body {
 		background-color: #FFF;
 		color: #333;
@@ -66,36 +66,36 @@ CONTENTS
 		line-height: 1.4;
 		margin: 0 auto;
 		padding: 0 1.4em;
-		max-width: 30em;
+		max-width: 48em;
 	}
-	
+
 	a {
 		text-decoration: none;
 	}
-	
+
 	a:link {
 		color: #006BC4;
 		border-bottom: 1px solid #EFEFEF;
 	}
-	
+
 	a:visited {
 		color: #2A9EFC;
 		border-bottom: 1px solid #EFEFEF;
 	}
-	
+
 	a:hover,
 	a:active,
 	a:focus {
 		color: #006BC4;
 		border-bottom: 1px solid;
 	}
-	
+
 		a img {
 			border: none;
 			text-decoration: none;
 		}
-	
-	
+
+
 /*
 2.	DEFAULT LAYOUT
 ------------------
@@ -104,16 +104,20 @@ CONTENTS
 	.site-header {
 		padding: 0.7em 0 0.35em 0;
 	}
-	
+
 		.site-header h1 {
 			margin-bottom: 0.7em;
 			font-size: 1em;
 		}
-		
+
 		.site-header ul {
 			margin-bottom: 0.7em;
 		}
-		
+
+	#content {
+		margin-bottom: 1.4em;
+	}
+
 	.g-w-split3 h2 {
 		font-size: 1em;
 		line-height: 1em;
@@ -122,10 +126,25 @@ CONTENTS
 		color: #888;
 		font-size: 0.83333em;
 	}
-	
+
 	.site-footer {
 		clear: both;
-		padding: 1.4em 0 0.7em 0;
+		padding: 1.4em 0.7em;
+		background-color: #333;
+		color: #FFF;
+	}
+
+		.site-footer .wrapper {
+			background-color: #333;
+			color: #FFF;
+		}
+
+	.top-note {
+		background-color: #333;
+		color: #FFF;
+		padding: 0.35em 0.7em;
+		text-align: center;
+		margin-bottom: 0.7em;
 	}
 
 
@@ -133,71 +152,71 @@ CONTENTS
 3.	DEFAULT MODULES
 ------------------
 */
-	
+
 	.icon li,
 	h1.icon {
 		list-style: none;
 		background-repeat: no-repeat;
 		background-position: center left;
 	}
-	
+
 		.icon li {
 			padding-left: 23px;
 		}
-		
+
 		h1.icon {
 			padding-left: 40px;
 		}
-		
+
 		.email {
 			background-image: url('images/email.png');
 		}
-		
+
 		.phone {
 			background-image: url('images/phone.png');
 		}
-		
+
 		.search {
 			background-image: url('images/search.png');
 		}
-		
+
 		.information {
 			background-image: url('images/information.png');
 		}
-		
+
 		.map {
 			background-image: url('images/map.png');
 		}
-		
+
 		.twitter {
 			background-image: url('images/twitter.png');
 		}
-		
+
 		.facebook {
 			background-image: url('images/facebook.png');
 		}
-		
+
 		.social {
 			background-image: url('images/social.png');
 		}
-		
+
 		.calendar {
 			background-image: url('images/calendar.png');
 		}
-		
+
 		.pc {
 			background-image: url('images/pc.png');
 		}
-		
+
 		.community {
 			background-image: url('images/community.png');
 		}
-	
+
 	.box {
 		padding: 0.7em 0;
 		border-top: 1px solid #CFCFCF;
 	}
-	
+
 		.box h1 {
 			font-size: 1.1667em;
 			margin-bottom: 0.55em;
@@ -205,17 +224,17 @@ CONTENTS
 			line-height: 1.2em;
 			text-align: left;
 		}
-		
+
 		.box p,
 		.box ul {
 			margin-bottom: 0.7em;
 		}
-		
+
 			.box li {
 				padding-bottom: 0.1875em;
 				margin-left: 1.25em;
 			}
-			
+
 		.box form,
 		.callout {
 			padding: 0.7em 1.4em;
@@ -223,37 +242,37 @@ CONTENTS
 			background-color: #EFEFEF;
 			font-size: 1.16667em;
 		}
-		
+
 		.callout {
 			padding: 1.4em;
 		}
-		
+
 			.callout p {
 				margin-bottom: 0;
 				text-shadow: 1px 1px 1px #FFF;
 			}
-			
+
 			.callout img {
 				box-shadow: 0.35em 0.35em 0.35em #CFCFCF;
 				border: 1px solid transparent;
 			}
-			
+
 				.callout img:hover {
 					border: 1px solid #FFF;
 				}
-		
+
 			.box input {
 				font-family: 'Source Sans Pro', calibri, sans-serif;
 			}
-			
+
 			.box form img {
 				vertical-align: middle;
 			}
-		
+
 	.box-sub {
 		padding: 0 0 1.4em 0;
 	}
-	
+
 		.box-sub h1 {
 			font-size: 0.83333em;
 			line-height: 1.2em;
@@ -261,31 +280,31 @@ CONTENTS
 			padding: 0;
 			color: #888;
 		}
-		
+
 		.box-sub li {
 				padding-bottom: 0.1875em;
 				margin-left: 1.25em;
 			}
-			
+
 	.hidden {
-		display: none !important; 
+		display: none !important;
 	}
-	
+
 	.search-form {
 		font-size: 0.8333em;
 		margin-bottom: 1.4em;
 	}
-	
+
 		.search-form input,
 		.search-form label {
 			text-align: left;
 		}
-	
-	
+
+
 } /* End main media query */
 
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1020px) {
 
 /*
 4.	WIDE BASE
@@ -298,54 +317,78 @@ CONTENTS
 	}
 
 	body {
-		background-color: #FFF;
-		max-width: 1200px;
-		margin: 0 auto 1.4em auto;
+		margin: 0;
+		padding: 0;
 		font-size: 118.5%;
-		margin-top: 0;
-		padding: 0 2.8em;
+		max-width: 100%;
+		background-color: #F1F1F1;
 	}
 
-	
+
 /*
 5.	WIDE LAYOUT
 ---------------
 */
 
+	.wrapper {
+		padding: 0 2.8em;
+		margin: 0 auto;
+		background-color: #FFF;
+		max-width: 1200px;
+	}
+
+	.wrapper:before,
+	.wrapper:after {
+	    content: " "; /* 1 */
+	    display: table; /* 2 */
+	}
+
+	.wrapper:after {
+	    clear: both;
+	}
+
+	/**
+	 * For IE 6/7 only
+	 * Include this rule to trigger hasLayout and contain floats.
+	 */
+	.wrapper {
+	    *zoom: 1;
+	}
+
 	.site-header {
 		padding-top: 0;
 	}
-	
+
 	.g-w-row {
 		clear: both;
 	}
-	
+
 	.g-w-left {
 		float: left;
 		margin-right: 5%;
 	}
-	
+
 	.g-w-right {
 		float: right;
 		margin-left: 5%;
 	}
-	
+
 	.g-w-last {
 		margin: auto 0;
 	}
-	
+
 	.g-w-col1 {
 		width: 30%;
 	}
-	
+
 	.g-w-col2 {
 		width: 65%;
 	}
-	
+
 	.g-w-col3 {
 		width: 100%;
 	}
-	
+
 	.g-w-split3 {
 		-moz-column-count: 3;
 		-moz-column-gap: 5%;
@@ -354,8 +397,8 @@ CONTENTS
 		column-count: 3;
 		column-gap: 5%;
 	}
-	
-		
+
+
 
 /*
 6.	WIDE MODULES
@@ -367,17 +410,17 @@ CONTENTS
 		padding: 1.4em 0 0 0;
 		border-top: none;
 	}
-	
+
 		.box > h1 {
 			border-bottom: 1px dotted #333;
 			padding-bottom: 0.7em;
 		}
-		
+
 		.box form {
 			font-size: 1.16667em;
 			text-align: center;
 		}
-	
+
 	.site-header {
 		background-image: url('images/bury-wide.jpg');
 		background-repeat: no-repeat;
@@ -385,14 +428,14 @@ CONTENTS
 		margin-bottom: 0;
 		font-size: 0.83333em;
 	}
-	
+
 		.site-header h1 {
 			padding: 0.35em 0.7em;
 			color: #333;
 			background-color: #EFEFEF;
 			opacity: 0.9;
 		}
-	
+
 		.site-header ul {
 			text-align: right;
 			background-color: #EFEFEF;
@@ -400,20 +443,20 @@ CONTENTS
 			opacity: 0.9;
 			padding: 0.35em 0.7em;
 		}
-	
+
 			.site-header ul li {
 				display: inline;
 				margin-left: 1.4em;
 			}
-			
+
 				.site-header ul li a {
 					color: #333;
 				}
-				
+
 	.float-left {
 		float: left;
 		margin-right: 0.75em;
 	}
-	
-	
+
+
 } /* End widescreen query */
