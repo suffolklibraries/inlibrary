@@ -95,6 +95,11 @@ CONTENTS
 			text-decoration: none;
 		}
 
+	img {
+		max-width: 100% !important;
+		height: auto !important;
+	}
+
 
 /*
 2.	DEFAULT LAYOUT
@@ -300,6 +305,14 @@ CONTENTS
 			text-align: left;
 		}
 
+	.db {
+		display: block;
+	}
+
+	.nlp {
+		padding-left: 0 !important; /*This is why I now use Tachyons */
+		}
+
 
 } /* End main media query */
 
@@ -360,6 +373,13 @@ CONTENTS
 	}
 
 	.g-w-row {
+		clear: both;
+	}
+
+	.g-w-row:after,
+	.callout:after  {
+		content: "";
+		display: table;
 		clear: both;
 	}
 
