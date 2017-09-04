@@ -437,9 +437,8 @@ CONTENTS
 			padding-bottom: 0.7em;
 		}
 
-		.box form {
-			font-size: 1.16667em;
-			text-align: center;
+		.box form label {
+			font-size: 0.75em;
 		}
 
 	.site-header {
