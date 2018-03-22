@@ -70,25 +70,18 @@ CONTENTS
 		max-width: 48em;
 	}
 
-	a {
-		text-decoration: none;
-	}
-
 	a:link {
 		color: #006BC4;
-		border-bottom: 1px solid #EFEFEF;
 	}
 
 	a:visited {
 		color: #2A9EFC;
-		border-bottom: 1px solid #EFEFEF;
 	}
 
 	a:hover,
 	a:active,
 	a:focus {
-		color: #006BC4;
-		border-bottom: 1px solid;
+		color: #CF0000;
 	}
 
 		a img {
@@ -188,6 +181,10 @@ CONTENTS
 
 		.information {
 			background-image: url('images/information.png');
+		}
+
+		.info {
+			background-image: url('images/info.png');
 		}
 
 		.map {
