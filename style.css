@@ -152,6 +152,15 @@ CONTENTS
 ------------------
 */
 
+	.mw1 {
+		max-width: 6em !important;
+		height: auto !important;
+	}
+
+	.pt1 {
+		padding-top: 1em;
+	}
+
 	.icon li,
 	h1.icon {
 		list-style: none;
