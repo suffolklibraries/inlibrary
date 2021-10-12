@@ -1,0 +1,45 @@
+html {
+  font-size: 125%;
+  --sl-purple: #88396C;
+  --sl-green: #78AD42;
+}
+
+.c-sans-serif {
+  font-family: ff-good-web-pro, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif
+}
+
+.c-wrapper {
+  max-width: 60rem;
+}
+
+.c-icon {
+  max-height: 1.25em !important;
+  width: auto !important;
+}
+
+.c-sl-purple {
+  color: var(--sl-purple);
+}
+
+.c-bg-sl-purple {
+  background-color: var(--sl-purple);
+}
+
+.c-sl-green {
+  color: var(--sl-green);
+}
+
+.c-bg-sl-green {
+  color: var(--sl-green);
+}
+
+*:focus {
+    outline:3px solid #FFB700;
+}
+
+.c-reveal-on-focus:focus {
+  position:relative !important;
+  _position:relative !important;
+  clip:auto;
+  clip:auto;
+}
