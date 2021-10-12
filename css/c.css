@@ -17,6 +17,11 @@ html {
   width: auto !important;
 }
 
+.c-icon-restrained {
+  max-height: 1em !important;
+  width: auto !important;
+}
+
 .c-sl-purple {
   color: var(--sl-purple);
 }
