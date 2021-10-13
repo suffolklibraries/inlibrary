@@ -30,12 +30,21 @@ html {
   background-color: var(--sl-purple);
 }
 
+.c-sl-border--purple {
+  border-color: var(--sl-purple);
+}
+
 .c-sl-green {
   color: var(--sl-green);
 }
 
 .c-bg-sl-green {
   color: var(--sl-green);
+}
+
+.c-remove-ios-borders {
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 *:focus {
